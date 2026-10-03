@@ -99,7 +99,7 @@ http://127.0.0.1:8765/
 或
 
 ```text
-http:/localhost:8765/
+http://localhost:8765/
 ```
 
 ---
