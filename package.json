@@ -1,0 +1,12 @@
+{
+  "name": "opendenshago",
+  "version": "0.1.6",
+  "private": true,
+  "description": "Development tests only; Python game needs no npm installation",
+  "scripts": {
+    "test": "node tests/test_geometry.cjs && node tests/test_prepend.cjs && node tests/test_heights.cjs && node tests/test_ui.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "20.0.11"
+  }
+}

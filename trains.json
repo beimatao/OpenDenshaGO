@@ -1,0 +1,94 @@
+{
+  "metro": {
+    "model": "捷運 C381",
+    "cars": 6,
+    "length": 141,
+    "operating_max_kmh": 80,
+    "acceleration_mps2": 1.0,
+    "service_brake_mps2": 1.0,
+    "emergency_brake_mps2": 1.3,
+    "curve": {
+      "tilt_system": "無車體傾斜",
+      "tilt_enabled": false,
+      "max_tilt_deg": 0,
+      "comfort_lateral_mps2": 0.65,
+      "max_unbalanced_mps2": 0.65
+    },
+    "notes": "性能採台北高運量系統參考規格，非 C381 各批次個別測試值。 曲線橫向加速度上限皆為遊戲模擬值；目前不含軌道超高。",
+    "derailment": {
+      "limit_ratio": 1.65,
+      "minimum_excess_kmh": 25,
+      "absolute_speed_ratio": 1.25,
+      "note": "遊戲事故門檻，非實車安全極限；瞬間超過即結束遊戲"
+    }
+  },
+  "tra": {
+    "model": "台鐵 EMU3000",
+    "cars": 8,
+    "length": 164,
+    "operating_max_kmh": 130,
+    "acceleration_mps2": 0.7,
+    "service_brake_mps2": 0.85,
+    "emergency_brake_mps2": 1.2,
+    "curve": {
+      "tilt_system": "無車體傾斜",
+      "tilt_enabled": false,
+      "max_tilt_deg": 0,
+      "comfort_lateral_mps2": 0.65,
+      "max_unbalanced_mps2": 0.65
+    },
+    "notes": "8 節為遊戲自訂編組；全長沿用遊戲 164 m。加減速沿用模擬值，非已核實 EMU3000 規格。 曲線橫向加速度上限皆為遊戲模擬值；目前不含軌道超高。",
+    "derailment": {
+      "limit_ratio": 1.55,
+      "minimum_excess_kmh": 25,
+      "absolute_speed_ratio": 1.22,
+      "note": "遊戲事故門檻，非實車安全極限；瞬間超過即結束遊戲"
+    }
+  },
+  "hsr": {
+    "model": "高鐵 700T",
+    "cars": 12,
+    "length": 304,
+    "operating_max_kmh": 300,
+    "acceleration_mps2": 0.5555555555555556,
+    "service_brake_mps2": 0.75,
+    "emergency_brake_mps2": 1.05,
+    "curve": {
+      "tilt_system": "無車體傾斜",
+      "tilt_enabled": false,
+      "max_tilt_deg": 0,
+      "comfort_lateral_mps2": 0.8,
+      "max_unbalanced_mps2": 0.8
+    },
+    "notes": "最大加速度依官方每秒 2 km/h 換算；煞車為模擬值。 曲線橫向加速度上限皆為遊戲模擬值；目前不含軌道超高。",
+    "derailment": {
+      "limit_ratio": 1.45,
+      "minimum_excess_kmh": 35,
+      "absolute_speed_ratio": 1.2,
+      "note": "遊戲事故門檻，非實車安全極限；瞬間超過即結束遊戲"
+    }
+  },
+  "shinkansen": {
+    "model": "新幹線 E5",
+    "cars": 16,
+    "length": 405,
+    "operating_max_kmh": 320,
+    "acceleration_mps2": 0.5,
+    "service_brake_mps2": 0.8,
+    "emergency_brake_mps2": 1.1,
+    "curve": {
+      "tilt_system": "車體傾斜",
+      "tilt_enabled": true,
+      "max_tilt_deg": 1.5,
+      "comfort_lateral_mps2": 0.85,
+      "max_unbalanced_mps2": 1.15
+    },
+    "notes": "16 節為遊戲自訂編組；全長沿用遊戲 405 m。加減速沿用模擬值；最大傾斜角依 JR 東日本。 曲線橫向加速度上限皆為遊戲模擬值；目前不含軌道超高。",
+    "derailment": {
+      "limit_ratio": 1.55,
+      "minimum_excess_kmh": 40,
+      "absolute_speed_ratio": 1.22,
+      "note": "遊戲事故門檻，非實車安全極限；瞬間超過即結束遊戲"
+    }
+  }
+}

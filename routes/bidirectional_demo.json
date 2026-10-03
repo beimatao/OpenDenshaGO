@@ -1,0 +1,75 @@
+{
+  "name": "雙向班次示範線",
+  "lat": 25,
+  "lon": 121,
+  "heading": 0,
+  "terrain": [
+    [
+      0,
+      0
+    ],
+    [
+      6000,
+      0
+    ]
+  ],
+  "segments": [
+    {
+      "length": 2000,
+      "radius": 0,
+      "mode": "ground",
+      "limit": 120
+    },
+    {
+      "length": 1000,
+      "radius": 1500,
+      "mode": "smooth",
+      "z_end": 10,
+      "limit": 65
+    },
+    {
+      "length": 3000,
+      "radius": 0,
+      "mode": "absolute",
+      "z_end": 0,
+      "limit": 120
+    }
+  ],
+  "start_station": {
+    "name": "起始站",
+    "center": 300,
+    "platform": null
+  },
+  "stations": [
+    {
+      "name": "A",
+      "center": 1500,
+      "platform": null,
+      "arrival": 121,
+      "dwell": 20,
+      "stop_enabled": true
+    },
+    {
+      "name": "B",
+      "center": 3500,
+      "platform": null,
+      "arrival": 289,
+      "dwell": 20,
+      "stop_enabled": false
+    },
+    {
+      "name": "C",
+      "center": 5600,
+      "platform": null,
+      "arrival": 442,
+      "dwell": 20,
+      "stop_enabled": true
+    }
+  ],
+  "version": "0.1.5",
+  "door_margins": {
+    "simple": 20,
+    "classic": 10
+  },
+  "schedule_difficulty": "normal"
+}

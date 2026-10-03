@@ -1,0 +1,125 @@
+{
+  "name": "山城試驗線 · 虛構路線",
+  "lat": 25.035,
+  "lon": 121.545,
+  "heading": 70,
+  "start_time": 28800,
+  "early": 30,
+  "late": 30,
+  "terrain": [
+    [
+      0,
+      12
+    ],
+    [
+      2200,
+      12
+    ],
+    [
+      2500,
+      12
+    ],
+    [
+      2900,
+      90
+    ],
+    [
+      3300,
+      12
+    ],
+    [
+      10000,
+      12
+    ]
+  ],
+  "segments": [
+    {
+      "length": 1400,
+      "radius": 0,
+      "mode": "ground",
+      "offset": 0,
+      "limit": 90
+    },
+    {
+      "length": 400,
+      "radius": 800,
+      "mode": "ground",
+      "offset": 0,
+      "limit": 75
+    },
+    {
+      "length": 300,
+      "radius": 0,
+      "mode": "transition",
+      "z_end": 22,
+      "limit": 80
+    },
+    {
+      "length": 300,
+      "radius": 0,
+      "mode": "elevated",
+      "offset": 10,
+      "limit": 90
+    },
+    {
+      "length": 1000,
+      "radius": 0,
+      "mode": "absolute",
+      "z_end": 22,
+      "limit": 100
+    },
+    {
+      "length": 300,
+      "radius": -900,
+      "mode": "transition",
+      "z_end": -8,
+      "limit": 70
+    },
+    {
+      "length": 600,
+      "radius": 0,
+      "mode": "underground",
+      "offset": -20,
+      "limit": 80
+    },
+    {
+      "length": 600,
+      "radius": 0,
+      "mode": "transition",
+      "z_end": 12,
+      "limit": 70
+    },
+    {
+      "length": 900,
+      "radius": 0,
+      "mode": "ground",
+      "offset": 0,
+      "limit": 90
+    }
+  ],
+  "stations": [
+    {
+      "name": "青溪",
+      "center": 1150,
+      "platform": 450,
+      "arrival": 120,
+      "dwell": 20
+    },
+    {
+      "name": "山城",
+      "center": 3200,
+      "platform": 450,
+      "arrival": 295,
+      "dwell": 20
+    },
+    {
+      "name": "光華",
+      "center": 5200,
+      "platform": 450,
+      "arrival": 475,
+      "dwell": 20
+    }
+  ],
+  "version": "0.1.5",
+  "global_limit": 90
+}
