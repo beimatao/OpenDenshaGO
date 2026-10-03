@@ -387,6 +387,8 @@ trains.json
 
 可透過 GIS 資料取得較真實的地形高程。
 
+※需先運行`install_dtm_support.bat`安裝python依賴套件，完成後再重啟`install_dtm_support.bat`。
+
 基本流程：
 
 ```text
