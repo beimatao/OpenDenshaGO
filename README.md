@@ -58,6 +58,8 @@
 Train-Simulator-v0.1.6.zip
 ```
 
+(直接下載Source code即可)
+
 解壓縮至任意資料夾，例如：
 
 ```text
